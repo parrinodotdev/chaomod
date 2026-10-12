@@ -1,0 +1,24 @@
+# personal data
+config.json
+chaomod_state.json
+
+# research workspace
+lab/
+data/
+history_summary*
+match_detail_sample*
+last_match_sample.json
+
+# game files
+*.ALF
+*.S01
+SONIC2B__*
+SAVEDATA*/
+*.bak
+
+# python / build
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/

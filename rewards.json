@@ -1,0 +1,28 @@
+{
+  "priority": "animals",
+  "min_rounds": 10,
+  "max_matches_per_run": 3,
+  "max_items_per_match": 10,
+  "drives": {
+    "red_drive":    { "stat": "total_kills",         "per": 5 },
+    "purple_drive": { "stat": "total_hs_kills",      "per": 4 },
+    "green_drive":  { "stat": "trade_kills_succeed", "per": 1 },
+    "yellow_drive": { "stat": "flashbang_hit_foe",   "per": 3 }
+  },
+  "animals": {
+    "stats": [
+      { "stat": "multi3k",                   "per": 1 },
+      { "stat": "multi4k",                   "per": 1 },
+      { "stat": "multi5k",                   "per": 1 },
+      { "stat": "flashbang_leading_to_kill", "per": 1 },
+      { "stat": "flash_assist",              "per": 1 }
+    ],
+    "pool": ["penguin", "seal", "otter", "rabbit", "cheetah", "boar", "bear", "tiger",
+             "gorilla", "peacock", "parrot", "condor", "skunk", "sheep", "raccoon"]
+  },
+  "rare": {
+    "stat": "leetify_rating",
+    "at_least": 0.07,
+    "pool": ["unicorn", "dragon", "phoenix", "bat", "half_fish", "skeleton_dog"]
+  }
+}
